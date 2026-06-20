@@ -32,9 +32,6 @@ A full stack web application integrating frontend portfolio with backend API and
 ### Users Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
-### Add User Form
-![Add User](screenshots/add-user.png)
-
 ## How to Run
 
 ### Backend
