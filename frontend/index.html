@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahan Waheed | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Shahan Waheed</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#users">Users</a></li>
+           </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm Shahan Waheed</h1>
+                <p class="hero-subtitle">Full Stack Developer & Software Engineering Student</p>
+                <p class="hero-description">I build clean, structured and readable web pages.
+                    Based in Attock, Punjab, Pakistan.
+                </p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </section>
+        <!-- About Section  -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm Shahan Waheed,a passionate webdeveloper from Attock, Punjab, Pakistan.I am 
+                        currently doing my Full Stack Web Development internship at DecodeLabs where 
+                        i am building
+                         real world projects from scratch.
+                    </p>
+                    <p>I love turning ideas into clean structured and readable web pages using 
+                        HTML,Css and JavaScript.i believe in writing code that's meaningul not just functional.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/mypic.jpg" alt="Shahan Waheed Full-stack developer"
+                    width="300" height="400">
+                </div>
+
+            </div>
+        </section>
+        <!-- Skills Section  -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Semantic markup, proper structure and accessible web pages.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Flexbox, Grid layouts, responsive design and clean styling.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation , events and interactive web experiences.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Scripting, logic building and backend fundamentals.</p>
+                </div>
+            </div>
+        </section>
+        <section id="techstack">
+            <h2>Tech Stack</h2>
+            <div class="techstack-grid">
+
+                <div class="tech-card">
+                    <h3>HTML5</h3>
+                    <p>Semantic markup</p>
+                </div>
+
+                <div class="tech-card">
+                    <h3>CSS3</h3>
+                    <p>Flexbox & Grid</p>
+                </div>
+
+                <div class="tech-card">
+                    <h3>JavaScript</h3>
+                    <p>ES6+ & Fetch API</p>
+                </div>
+
+                <div class="tech-card">
+                    <h3>Node.js</h3>
+                    <p>Server side runtime</p>
+                </div>
+
+                <div class="tech-card">
+                    <h3>Express.js</h3>
+                    <p>REST API framework</p>
+                </div>
+
+                <div class="tech-card">
+                    <h3>MongoDB</h3>
+                    <p>NoSQL database</p>
+                </div>
+
+                <div class="tech-card">
+                    <h3>Python</h3>
+                    <p>Scripting & logic</p>
+                </div>
+
+                <div class="tech-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version control</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/currency.jpg" alt="Currency Coverter Web App" width="200" height="200">
+                    <div class="project-info">
+                        <h3>Currency Converter</h3>
+                        <p>A web based currency converter that convert values between different
+                             currencies in real time using html, css and javascript. </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/quizverse.jpg" alt="Quiz Verse" width="200" height="200">
+                    <div class="project-info">
+                        <h3>QuizVerse</h3>
+                        <p>An interactive online quiz application with multiple catergories,
+                            scoring system and clean user interface.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/portfolio.jpg" alt="Personal Portfolio" width="200" height="300">
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>My personal portfolio which is being built as part of my internship at DecodeLabs internshi Week 1 and beyond.</p>
+                    </div>
+                </div>               
+            </div>
+        </section>
+        <!-- Users Dashboard Section -->
+        <section id="users">
+            <h2>Users Dashboard</h2>
+            <div class="dashboard-container">
+
+                <!-- Add User Form -->
+                <div class="add-user-form">
+                    <h3>Add New User</h3>
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="name" 
+                            placeholder="Enter name"
+                            class="form-input"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            id="email" 
+                            placeholder="Enter email"
+                            class="form-input"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="city" 
+                            placeholder="Enter city"
+                            class="form-input"
+                        />
+                    </div>
+                    <button id="addUserBtn" class="btn">Add User</button>
+                    <p id="formMessage" class="form-message"></p>
+                </div>
+
+                <!-- Users List -->
+                <div class="users-list">
+                    <h3>All Users <span id="userCount">(0)</span></h3>
+                    <div id="usersContainer">
+                        <p class="loading-text">Loading users...</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Contact Section  -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+               <div class="contact-content">
+                <p>I am open to internship opportunities, collaborations and freelance projects.
+                    Feel free to reach out!
+                </p>
+                <div class="contact-links">
+                   <a href="shahanwaheed43@gmail.com" class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">shahanwaheed43@gmail.com</span>
+                   </a>                    
+                   <a href="https://www.linkedin.com/in/shahan-waheed-ba1667363/" target="_blank" class="contact-item">
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">https://www.linkedin.com/in/shahan-waheed-ba1667363/</span>
+                   </a>
+                   <a href="https://github.com/Shahan-Waheed728" target="_blank" class="contact-item">
+                    <span class="contact-label">Github</span>
+                    <span class="contact-value">https://github.com/Shahan-Waheed728</span>
+                   </a>
+                </div>
+               </div>
+        </section>
+    </main>
+    <footer>
+        <p>Designed and built by Shahan Waheed &copy; 2026</p>
+        <p>Attock, Punjab, Pakistan</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
